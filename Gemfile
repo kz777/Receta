@@ -24,6 +24,8 @@ gem 'bower-rails'
 
 gem 'sass', '3.2.19'
 
+gem 'angular-rails-templates'
+
 
 gem "foreman"
 group :production, :staging do
