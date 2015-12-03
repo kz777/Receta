@@ -20,6 +20,8 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
+gem 'bower-rails'
+
 gem 'sass', '3.2.19'
 
 group :test, :development do
