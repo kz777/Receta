@@ -22,9 +22,7 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'bower-rails'
 
-gem 'sass', '3.2.19'
-
-gem 'angular-rails-templates'
+gem 'angular-rails-templates', '~> 0.2.0'
 
 
 gem "foreman"
@@ -45,10 +43,8 @@ group :test, :development do
   gem "selenium-webdriver"
 end
 
- group :doc do
-   # bundle exec rake doc:rails generates the API under doc/api.
-   gem 'sdoc', require: false
- end
+# bundle exec rake doc:rails generates the API under doc/api.
+gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
