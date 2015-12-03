@@ -25,6 +25,7 @@ gem 'bower-rails'
 gem 'angular-rails-templates', '~> 0.2.0'
 
 
+
 gem "foreman"
 group :production, :staging do
   gem "rails_12factor"
